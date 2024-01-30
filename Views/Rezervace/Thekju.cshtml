@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Děkujeme";
+}
+
+<style>
+    /* CSS styl pro potvrzení rezervace */
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .success-message {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .success-message h2 {
+            color: #35C970;
+        }
+
+        .success-message p {
+            font-size: 18px;
+        }
+
+    .btn-primary {
+        color: #007bff;
+        border: none;
+    }
+</style>
+
+<h1>Díky bobíku!</h1>
+
+<div class="success-message">
+    <h2>Děkujeme za vaši rezervaci!</h2>
+    <p>Vaše rezervace byla úspěšně vytvořena.</p>
+</div>
+
+<div class="text-center">
+    <a href="/Rezervace/FormCreate" class="btn btn-primary">Vytvořit další rezervaci</a>
+</div>

@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RestauraceApp
+build_property.RootNamespace = RestauraceApp
+build_property.ProjectDir = C:\Users\evcas\OneDrive\Plocha\škola\c#\RestauraceApp\RestauraceApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\evcas\OneDrive\Plocha\škola\c#\RestauraceApp\RestauraceApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/AllReservationen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEFsbFJlc2VydmF0aW9uZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/FormCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEZvcm1DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/FormDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEZvcm1EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/FormEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEZvcm1FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evcas/OneDrive/Plocha/škola/c\#/RestauraceApp/RestauraceApp/Views/Rezervace/Thekju.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNlXFRoZWtqdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

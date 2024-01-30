@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r8cLKX4Pr4d/NhSWUEc//xQF7d1Acmv1XhkLkIuY42wN3bPTSLld9MfOIBSgkBdgKSSESx0jVk2gJjCSPfPg/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\evcas\\OneDrive\\Plocha\\škola\\c#\\RestauraceApp\\RestauraceApp\\RestauraceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evcas\\.nuget\\packages\\litedb\\5.0.17\\litedb.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

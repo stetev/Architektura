@@ -1,0 +1,83 @@
+﻿@model IEnumerable<RestauraceApp.Models.Rezervace>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seznam Rezervací</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin: 0 auto; /* Střední zarovnání */
+            padding: 20px; /* Odstup od okraje kontejneru */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a.btn {
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+            a.btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Seznam Rezervací</h2>
+        <table>
+            <tr>
+                <th>Jméno Hosta</th>
+                <th>Datum</th>
+                <th>Počet Hostů</th>
+                <th>Akce</th>
+            </tr>
+            @foreach (var rezervace in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => rezervace.JmenoHosta)</td>
+                    <td>@Html.DisplayFor(modelItem => rezervace.Datum)</td>
+                    <td>@Html.DisplayFor(modelItem => rezervace.PocetHostu)</td>
+                    <td>
+                        @Html.ActionLink("Editovat", "FormEdit", new { id = rezervace.RezervaceID }, new { @class = "btn" })
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
